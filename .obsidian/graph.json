@@ -5,8 +5,44 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#concept  ",
+      "color": {
+        "a": 1,
+        "rgb": 6494057
+      }
+    },
+    {
+      "query": "tag:#evaluation  ",
+      "color": {
+        "a": 1,
+        "rgb": 16773458
+      }
+    },
+    {
+      "query": "path:Deployment  ",
+      "color": {
+        "a": 1,
+        "rgb": 4047155
+      }
+    },
+    {
+      "query": "tag:#model  ",
+      "color": {
+        "a": 1,
+        "rgb": 3420596
+      }
+    },
+    {
+      "query": "tag:#query  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": true
+  "scale": 0.5606784868474473,
+  "close": false
 }
