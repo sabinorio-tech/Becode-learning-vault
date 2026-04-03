@@ -43,6 +43,12 @@ Some content may be incomplete, evolving, or experimental.
 * **Markdown** (.md files)
 
 ---
+## 🧠 My Zettelkasten Structure
+
+<img width="1676" height="954" alt="image" src="https://github.com/user-attachments/assets/869756c3-1593-425b-8815-4b6f5338f27d" />
+
+
+---
 
 ## 🚀 About
 
