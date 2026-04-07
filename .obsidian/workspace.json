@@ -4,17 +4,129 @@
     "type": "split",
     "children": [
       {
-        "id": "0d3284eaa23adca3",
+        "id": "f48bf1c704b072a6",
         "type": "tabs",
         "children": [
           {
-            "id": "4ee7280027d13284",
+            "id": "c7cff39e37eaa887",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "c6b1fd8fd7ae70b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backend/API/API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "API"
+            }
+          },
+          {
+            "id": "aae7fa637ca3b075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment/Platforms/Render.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Render"
+            }
+          },
+          {
+            "id": "c36162a017a5e183",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment/Containers/Docker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker"
+            }
+          },
+          {
+            "id": "99f749d935ca319f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment/Fundamentals/Deployment Pipeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Deployment Pipeline"
+            }
+          },
+          {
+            "id": "1835809284905266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment/Cloud/AWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS"
+            }
+          },
+          {
+            "id": "67bcb1c8399f8b66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deployment/Cloud/Cloud.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cloud"
+            }
+          },
+          {
+            "id": "8fbbe7f7799dfca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data World/Data Sources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Sources"
+            }
+          },
+          {
+            "id": "68844e7ca1973e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Model/Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model"
             }
           }
         ]
@@ -59,22 +171,12 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "b3216800925f5157",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0e1b91e9c0d133cd",
@@ -103,6 +205,16 @@
             }
           },
           {
+            "id": "b3216800925f5157",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
             "id": "be0afe479111d6c7",
             "type": "leaf",
             "state": {
@@ -113,21 +225,6 @@
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "0f631e4558beb2c3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
             }
           },
           {
@@ -157,16 +254,49 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "317137c8620c8601",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "b5632f63ba6373d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f631e4558beb2c3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 381.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,43 +306,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "f78cec095fd9dbff",
+  "active": "c7cff39e37eaa887",
   "lastOpenFiles": [
-    "AWS (Cloud) — Foundation.md",
-    "Feature Engineering.md",
-    "Deployment.md",
-    "Deployment Pipeline.md",
-    "Data Cleaning.md",
-    "Backend Architecture.md",
-    "qgsqd.md",
-    "Deployment/Tools/Docker.md",
-    "Deployment/Tools",
+    "Backend/API/API.md",
+    "Pasted image 20260404124547.png",
+    "Pasted image 20260404010831.png",
+    "Backend/API/Routing & URL Paths.md",
+    "Backend/API",
+    "Data World/Data Sources.md",
     "Deployment/Platforms/Render.md",
+    "AWS (Cloud) — Foundation.md",
+    "Deployment/Containers/Docker.md",
+    "Deployment/Fundamentals/Deployment Pipeline.md",
     "Deployment/Platforms",
-    "Deployment/Frameworks/Streamlit.md",
-    "Deployment/Frameworks/Flask.md",
-    "Deployment/Frameworks/FastAPI.md",
-    "Deployment/Frameworks",
-    "Deployment/Concepts/What is Deployment.md",
-    "Deployment/Concepts",
-    "Deployment/Routing & URL Paths.md",
-    "Deployment/HTTP Requests (GET vs POST).md",
-    "Deployment/Flask Templates (Jinja).md",
-    "Deployment/API Fundamentals.md",
-    "Deployment",
-    "SQL/SQLite3.md",
-    "SQL/SQLite (Database Engine).md",
+    "Deployment/Containers",
+    "Deployment/Cloud/AWS.md",
+    "Deployment/Cloud/Cloud Computing.md",
+    "Deployment/Cloud/Cloud.md",
+    "Deployment/Cloud",
+    "Deployment/Fundamentals",
+    "Backend/Communication/Rate Limiting.md",
+    "Data World/Data Extraction/Rate Limiting.md",
     "SQL/SQL.md",
-    "SQL/SQL – JOIN.md",
-    "SQL/SQL – GROUP BY.md",
-    "SQL/SQL – Filtering.md",
-    "SQL/SQL – Aggregation.md",
-    "SQL/SQL - Execution Order.md",
-    "SQL/Relational Databases.md",
-    "SQL",
-    "0 - Shortcuts",
-    "Machine Learning",
-    "Data Extraction",
-    "New Document texte.txt"
+    "Machine Learning/Model/Model.md",
+    "SQL/SQLite (Database Engine).md",
+    "Backend or API/Flask.md",
+    "Backend/Frameworks/Flask.md",
+    "Machine Learning/Model/Polynomial Regression.md",
+    "Machine Learning/Model/Decision Tree.md",
+    "Machine Learning/Model/Unsupervised",
+    "Machine Learning/Model/Supervised",
+    "DataBases/Databases.md",
+    "DataBases/SQL/SQL.md",
+    "DataBases/Tools/ORM.md",
+    "DataBases/Types of DataBases/Relational Databases.md",
+    "DataBases/Types of DataBases/Example/SQLite (Database Engine).md",
+    "DataBases/Types of DataBases/NoSQL Databases.md",
+    "DataBases/Untitled",
+    "DataBases/Types of DataBases/Example",
+    "DataBases/Tools/Untitled"
   ]
 }
